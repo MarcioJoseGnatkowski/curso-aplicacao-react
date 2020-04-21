@@ -4,17 +4,15 @@
 import React from 'react';
 import './Link.css';
  
-function Link() {
-  return (
+const Link = () => (
     <a
       className="App-link"
       href="https://reactjs.org"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Learn React
+      Estudar React
     </a>
-  );
-}
+);
  
 export default Link;
