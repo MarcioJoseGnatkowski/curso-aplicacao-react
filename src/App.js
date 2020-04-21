@@ -11,7 +11,7 @@ import BoasVindas from './BoasVindas'
 const App = () => (
     <div className="App">
       <Header>
-        <Logo pepeticao={6} />       
+        <Logo />       
         <Text />
         <Link />
         <BoasVindas nome="Marcio Jose Gnatkowski" />

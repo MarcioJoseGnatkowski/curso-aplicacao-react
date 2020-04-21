@@ -12,7 +12,28 @@
     animation: App-logo-spin infinite 10s linear;
   }
  
+  /*pego todos os elementos logos e os pares dou um reverse*/
   .App-logo:nth-child(even) {
     animation-direction: reverse;
   }
+}
+
+.App-logo-buttons {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+
+/*App-logo-buttons > button 'herdando' de button vai aplicar essas propertys*/
+.App-logo-buttons > button {
+  padding: 5px 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+/*muda de cor aou passar mouse*/
+.App-logo-buttons > button:hover {
+  text-decoration: underline;
 }
